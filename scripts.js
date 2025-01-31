@@ -40,12 +40,12 @@ function changecurrency() {
     const currencyName = document.getElementById("currency-name")
     const currencyImge = document.querySelector(".currency-img")
 
-if(currencyselect.value ="dolar"){
+if(currencyselect.value =="dolar"){
     currencyName.innerHTML = "dolar americano" 
     currencyImge.src ="logo 3.png"
 }
 
-if(currencyselect.value =""){
+if(currencyselect.value =="euro"){
 currencyName.innerHTML = "euro"
 currencyImge.src ="logo 4.png"
 }
