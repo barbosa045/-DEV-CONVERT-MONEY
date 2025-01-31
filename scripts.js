@@ -45,7 +45,7 @@ if(currencyselect.value ="dolar"){
     currencyImge.src ="logo 3.png"
 }
 
-if(currencyselect.value ="euro"){
+if(currencyselect.value =""){
 currencyName.innerHTML = "euro"
 currencyImge.src ="logo 4.png"
 }
